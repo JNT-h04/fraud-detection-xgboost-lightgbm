@@ -1,0 +1,245 @@
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+D:\Projects\fraud-detection\.venv\Lib\site-packages\lightgbm\sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+{
+ "rows_after_cleaning": 283726,
+ "duplicates_dropped": 1081,
+ "split": {
+  "train": {
+   "rows": 170235,
+   "frauds": 342,
+   "fraud_rate_pct": 0.201
+  },
+  "val": {
+   "rows": 56745,
+   "frauds": 57,
+   "fraud_rate_pct": 0.1
+  },
+  "test": {
+   "rows": 56746,
+   "frauds": 74,
+   "fraud_rate_pct": 0.13
+  }
+ }
+}
+XGBoost   raw             none              val PR-AUC 0.7818  trees 112
+XGBoost   raw             class_weight      val PR-AUC 0.7744  trees 189
+XGBoost   raw             sqrt_weight       val PR-AUC 0.7930  trees 1614
+XGBoost   raw             undersample_1:20  val PR-AUC 0.7870  trees 320
+XGBoost   raw+engineered  none              val PR-AUC 0.7866  trees 239
+XGBoost   raw+engineered  class_weight      val PR-AUC 0.7742  trees 244
+XGBoost   raw+engineered  sqrt_weight       val PR-AUC 0.7807  trees 536
+XGBoost   raw+engineered  undersample_1:20  val PR-AUC 0.7883  trees 168
+LightGBM  raw             none              val PR-AUC 0.7911  trees 696
+LightGBM  raw             class_weight      val PR-AUC 0.7774  trees 252
+LightGBM  raw             sqrt_weight       val PR-AUC 0.7860  trees 1059
+LightGBM  raw             undersample_1:20  val PR-AUC 0.7931  trees 589
+LightGBM  raw+engineered  none              val PR-AUC 0.7752  trees 1530
+LightGBM  raw+engineered  class_weight      val PR-AUC 0.7888  trees 654
+LightGBM  raw+engineered  sqrt_weight       val PR-AUC 0.7869  trees 846
+LightGBM  raw+engineered  undersample_1:20  val PR-AUC 0.7905  trees 131
+{
+ "XGBoost": {
+  "pr_auc": {
+   "mean": 0.7983167991269996,
+   "std": 0.004599836941901493
+  },
+  "roc_auc": {
+   "mean": 0.976113233857799,
+   "std": 0.0032598197130865123
+  },
+  "precision": {
+   "mean": 0.8968153240495915,
+   "std": 0.007248976837141136
+  },
+  "recall": {
+   "mean": 0.7513513513513514,
+   "std": 0.006620242548062685
+  },
+  "f1": {
+   "mean": 0.8176430831862348,
+   "std": 0.005569505234919501
+  },
+  "accuracy": {
+   "mean": 0.9995629647904698,
+   "std": 1.3187387258206813e-05
+  },
+  "tp": {
+   "mean": 55.6,
+   "std": 0.4898979485566356
+  },
+  "fp": {
+   "mean": 6.4,
+   "std": 0.4898979485566356
+  },
+  "fn": {
+   "mean": 18.4,
+   "std": 0.4898979485566356
+  },
+  "tn": {
+   "mean": 56665.6,
+   "std": 0.4898979485566356
+  },
+  "threshold": {
+   "mean": 0.7408138513565063,
+   "std": 0.09240068596614645
+  },
+  "fraud_amount_caught_pct": {
+   "mean": 65.85550366410573,
+   "std": 0.004818042707596529
+  },
+  "recall_at_p90": {
+   "mean": 0.745945945945946,
+   "std": 0.021621621621621623
+  }
+ },
+ "LightGBM": {
+  "pr_auc": {
+   "mean": 0.7914441299469555,
+   "std": 0.0023902023912739188
+  },
+  "roc_auc": {
+   "mean": 0.9848887195354588,
+   "std": 0.0017236808867113348
+  },
+  "precision": {
+   "mean": 0.8782511363153647,
+   "std": 0.022753039239026655
+  },
+  "recall": {
+   "mean": 0.7162162162162161,
+   "std": 0.01480331236500446
+  },
+  "f1": {
+   "mean": 0.7887070257749728,
+   "std": 0.010044746366489558
+  },
+  "accuracy": {
+   "mean": 0.9994995241955381,
+   "std": 2.6374774516461097e-05
+  },
+  "tp": {
+   "mean": 53.0,
+   "std": 1.0954451150103321
+  },
+  "fp": {
+   "mean": 7.4,
+   "std": 1.624807680927192
+  },
+  "fn": {
+   "mean": 21.0,
+   "std": 1.0954451150103321
+  },
+  "tn": {
+   "mean": 56664.6,
+   "std": 1.6248076809271923
+  },
+  "threshold": {
+   "mean": 0.8885154662637371,
+   "std": 0.07503693526201623
+  },
+  "fraud_amount_caught_pct": {
+   "mean": 60.31823305084198,
+   "std": 6.279058826531873
+  },
+  "recall_at_p90": {
+   "mean": 0.6972972972972973,
+   "std": 0.006620242548062685
+  }
+ },
+ "LogisticRegression": {
+  "pr_auc": {
+   "mean": 0.756610366184635,
+   "std": 0.0
+  },
+  "roc_auc": {
+   "mean": 0.981040377439834,
+   "std": 0.0
+  },
+  "precision": {
+   "mean": 0.9423076923076923,
+   "std": 0.0
+  },
+  "recall": {
+   "mean": 0.6621621621621622,
+   "std": 0.0
+  },
+  "f1": {
+   "mean": 0.7777777777777778,
+   "std": 0.0
+  },
+  "accuracy": {
+   "mean": 0.9995065731505305,
+   "std": 0.0
+  },
+  "tp": {
+   "mean": 49.0,
+   "std": 0.0
+  },
+  "fp": {
+   "mean": 3.0,
+   "std": 0.0
+  },
+  "fn": {
+   "mean": 25.0,
+   "std": 0.0
+  },
+  "tn": {
+   "mean": 56669.0,
+   "std": 0.0
+  },
+  "threshold": {
+   "mean": 0.9999950898254218,
+   "std": 0.0
+  },
+  "fraud_amount_caught_pct": {
+   "mean": 56.821655169022485,
+   "std": 0.0
+  },
+  "recall_at_p90": {
+   "mean": 0.6621621621621622,
+   "std": 0.0
+  }
+ },
+ "AlwaysLegit": {
+  "accuracy": {
+   "mean": 0.9986959433264019,
+   "std": 0.0
+  },
+  "recall": {
+   "mean": 0.0,
+   "std": 0.0
+  },
+  "pr_auc": {
+   "mean": 0.0013040566735981391,
+   "std": 0.0
+  }
+ },
+ "XGBoost_random_split": {
+  "test_pr_auc": 0.8766513788579513
+ }
+}
+done in 258.2 s
